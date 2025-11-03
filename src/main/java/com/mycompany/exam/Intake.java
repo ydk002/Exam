@@ -31,6 +31,10 @@ public class Intake extends BaseEntity implements Schedulable {
     
     // --- Business Logic Flag ---
     private boolean doNotRelease = false; // We will set this in Phase 3
+    // --- Fields for Business Logic ---
+    private double partsAndLaborCost = 0.0;
+    private double courtesyCarFee = 0.0;
+    private double totalCost = 0.0;
 
     // --- Overloaded Constructors (Mandatory) ---
     public Intake() {
@@ -151,5 +155,30 @@ public class Intake extends BaseEntity implements Schedulable {
 
     public void setDoNotRelease(boolean doNotRelease) {
         this.doNotRelease = doNotRelease;
+    }
+    // --- Getters and Setters for Costs ---
+
+    public double getPartsAndLaborCost() {
+        return partsAndLaborCost;
+    }
+
+    public void setPartsAndLaborCost(double partsAndLaborCost) {
+        this.partsAndLaborCost = partsAndLaborCost;
+    }
+
+    public double getCourtesyCarFee() {
+        return courtesyCarFee;
+    }
+
+    public void setCourtesyCarFee(double courtesyCarFee) {
+        this.courtesyCarFee = courtesyCarFee;
+    }
+
+    public double getTotalCost() {
+        return totalCost;
+    }
+
+    public void setTotalCost(double totalCost) {
+        this.totalCost = totalCost;
     }
 }

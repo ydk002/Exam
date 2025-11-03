@@ -1,0 +1,43 @@
+======= CAR SERVICE INTAKE REPORT =======
+Total Intakes Processed: 3
+
+-----------------------------------------
+INTAKE ID: SRV-2025-1102-045
+*** DO NOT RELEASE ***
+Client: Pop Dan (dan.pop@example.com)
+Car: Dacia Duster (VF1AAAAA123456789)
+Reported Issues (Sorted):
+  - [HIGH] ENG-OIL-LEAK
+  - [MEDIUM] SUS-RATTLE-FR
+  - [LOW] INF-NAV-CRASH
+COSTS:
+  Parts & Labor: 195.20 EUR
+  Courtesy Car:  75.00 EUR
+  TOTAL:         270.20 EUR
+
+-----------------------------------------
+INTAKE ID: SRV-2025-1102-046
+Client: Varga Iulia (iulia.varga@example.com)
+Car: Volkswagen Golf 7 (WVWZZZ1JZXW000321)
+Reported Issues (Sorted):
+  - [HIGH] BRAKE-PAD-WORN
+  - [LOW] AC-LOW-GAS
+COSTS:
+  Parts & Labor: 154.60 EUR
+  Courtesy Car:  0.00 EUR
+  TOTAL:         154.60 EUR
+
+-----------------------------------------
+INTAKE ID: SRV-2025-1102-047
+Client: Szabo Tamas (tamas.szabo@example.com)
+Car: Honda Civic (JHMZZZHYH12345678)
+Reported Issues (Sorted):
+  - [LOW] SENSOR-TPS-ERR
+COSTS:
+  Parts & Labor: 80.50 EUR
+  Courtesy Car:  0.00 EUR
+  TOTAL:         80.50 EUR
+
+=========================================
+GRAND TOTAL (ALL INTAKES): 505.30 EUR
+======= END OF REPORT =======
