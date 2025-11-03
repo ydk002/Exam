@@ -8,6 +8,11 @@ package com.mycompany.exam;
  *
  * @author antal
  */
-public class Billable {
+/**
+ * INTERFACE for anything that has a cost.
+ * This will be used for polymorphic calculations.
+ */
+public interface Billable {
     
+    double calculateCost();
 }

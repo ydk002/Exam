@@ -8,6 +8,14 @@ package com.mycompany.exam;
  *
  * @author antal
  */
-public class DomainValidationException {
+public class DomainValidationException extends Exception {
     
+    // Required constructors for a proper exception
+    public DomainValidationException(String message) {
+        super(message);
+    }
+
+    public DomainValidationException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }

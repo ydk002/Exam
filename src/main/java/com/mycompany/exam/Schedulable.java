@@ -8,6 +8,8 @@ package com.mycompany.exam;
  *
  * @author antal
  */
-public class Schedulable {
-    
+import java.util.Date;
+
+public interface Schedulable {
+    Date getAppointmentDate();
 }

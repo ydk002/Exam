@@ -8,6 +8,6 @@ package com.mycompany.exam;
  *
  * @author antal
  */
-public class Vehicle {
+public class Invoice {
     
 }
